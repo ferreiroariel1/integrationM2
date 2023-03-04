@@ -1,0 +1,43 @@
+.divForm {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #f2f3f5;
+    border-bottom: 1px solid #dadde1;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+  }
+  
+  .busqueda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 720px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 9999px;
+  }
+  
+  .form {
+    flex-grow: 1;
+    margin-right: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 9999px;
+  }
